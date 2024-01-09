@@ -1,0 +1,65 @@
+.container-fluid {
+    padding: 0% 15%;
+  }
+
+.main-view {
+    padding: 1% 7%;
+    background-color: whitesmoke;
+  }
+
+.titleimg {
+  border-radius: 5%;
+}
+
+.big-heading {
+    padding: 5px 0px;
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+
+.portfoliotitle {
+  text-align: center;
+}
+
+#portfolio {
+  padding: 1% 7%;
+}
+
+.portfolio-col {
+  padding: 3% 2%;
+  text-align: center;
+}
+
+#contact {
+  background-color: black;
+  color: white;
+  padding: 1% 7%;
+  text-align: end;
+}
+
+.contactcontent {
+  margin-bottom: 0px;
+}
+
+@media (max-width: 1550px) {
+    .big-heading {
+      padding: 10px 0px;
+      font-size: 2rem;
+      line-height: 1.5;
+    }
+  }
+
+@media (max-width: 510px) {
+  .big-heading {
+    padding: 10px 0px;
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+}
+@media (max-width: 380px) {
+    .big-heading {
+      padding: 10px 0px;
+      font-size: 1.2rem;
+      line-height: 1.5;
+    }  
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>디지털 멘탈 헬스케어랩</title>
+
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+    <!--fontawsome-->
+    <script src="https://kit.fontawesome.com/1b1036ea66.js" crossorigin="anonymous"></script>
+
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    
+    <!--stylesheet-->
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <section id="title">
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">디지털 멘탈 헬스케어랩</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarToggler">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#greeting">인사말</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#portfolio">포트폴리오</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>    
+          </div>
+        </nav>
+
+        <!-- Title view -->
+        <div class="main-view row">
+
+          <div class="col-lg-6 my-auto" style="text-align: center;">
+            <h1 class="big-heading">디지털 멘탈 헬스케어랩</h1>
+            <h1 class="big-heading">Digital Mental Healthcare Lab</h1>
+            <h1 class="big-heading">정신 건강을 위한 웹, 앱서비스</h1>
+          </div>
+  
+          <div class="col-lg-6" style="text-align: center;">
+            <img class="titleimg title-image img-thumbnail" src="images/titleimage.png" alt="타이틀 이미지">
+          </div>
+  
+        </div>
+      </div>
+    </section>  
+
+    <section id="greeting">
+
+    </section>
+
+    <section id="portfolio">
+      <div class="portfoliotitle">
+        <h3 class="big-heading">Company Portfolio</h3>
+      </div>
+      <div class="row">
+
+        <div class="portfolio-col col-lg-4">
+          <div class="card">
+            <img src="images/wisesaying.png" class="card-img-top img-thumbnail" alt="슬럼프 극복 명언">
+            <div class="card-body">
+              <h5 class="card-title">슬럼프 극복 명언</h5>
+              <p class="card-text">슬럼프 극복을 위한 명언을 제시합니다.</p>
+              <button class="btn btn-lg btn-block btn-dark" type="button" onclick="location.href='https://play.google.com/store/apps/details?id=com.mjbae81.myapp&pcampaignid=web_share&pli=1';">바로가기</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="portfolio-col col-lg-4">
+          <div class="card">
+            <img src="images/selftalk.png" class="card-img-top img-thumbnail" alt="스포츠 자기암시">
+            <div class="card-body">
+              <h5 class="card-title">스포츠 자기암시</h5>
+              <p class="card-text">상황에 따른 자기암시를 제시합니다.</p>
+              <button class="btn btn-lg btn-block btn-dark" type="button" onclick="location.href='https://play.google.com/store/apps/details?id=com.selftalk.myapp&pcampaignid=web_share';">바로가기</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-col col-lg-4">
+          <div class="card">
+            <img src="images/chatmoti.png" class="card-img-top img-thumbnail" alt="챗모티">
+            <div class="card-body">
+              <h5 class="card-title">동기부여 챗모티</h5>
+              <p class="card-text">슬럼프에 빠진 당신에게 동기부여를 해줍니다.</p>
+              <button class="btn btn-lg btn-block btn-dark" type="button" onclick="location.href='https://chatmoti.pages.dev/';">바로가기</button>
+            </div>
+          </div>
+        </div>  
+    </section>
+
+    <section id="contact">
+      <p class="contactcontent">대표: 배문정</p>
+      <p class="contactcontent">e-mail: 38tough@gmail.com</p>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+</body>
+</html>
